@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1090684820965",
+    "firebase_url": "https://eventray-171e9.firebaseio.com",
+    "project_id": "eventray-171e9",
+    "storage_bucket": "eventray-171e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090684820965:android:71f4ecff932cb9183b630c",
+        "android_client_info": {
+          "package_name": "com.example.eventray"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090684820965-1bf3knhffkll6e9uomi93f9l1et0ukca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventray",
+            "certificate_hash": "d66da25b0fce7b5fa34be45a4ca34df27670146e"
+          }
+        },
+        {
+          "client_id": "1090684820965-ipgllke5jor1i09midi0i60ut4p2bp2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_atG-286DEqcuB4byRGxxc7QYvOI0Gig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090684820965-ipgllke5jor1i09midi0i60ut4p2bp2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_users"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="User" />
+
+    <item
+        android:id="@+id/navigation_e_organizer"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="Event organizer" />
+
+</menu>
