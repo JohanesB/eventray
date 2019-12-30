@@ -44,7 +44,7 @@ public class profile extends Fragment implements AdapterView.OnItemSelectedListe
         spinnerac.setAdapter(adapter);
         spinnerac.setOnItemSelectedListener(this);
 
-        button=(Button) view.findViewById(R.id.buttonp);
+        button=(Button) view.findViewById(R.id.buttonpp);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,6 +1,7 @@
 package com.example.eventray;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,8 +28,11 @@ public class manage_profile extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent=new Intent(getApplicationContext(),profile.class);
                 startActivity(intent);
+
+
             }
         });
 

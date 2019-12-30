@@ -30,16 +30,14 @@ public class search_for extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                acti();
+                Intent intent=new Intent(getApplicationContext(),search.class);
+                startActivity(intent);
 
             }
         });
     }
 
-    private void acti() {
-        Intent op = new Intent(this,search.class);
-        startActivity(op);
-    }
+
 
 
     private void setupViewpager(){
