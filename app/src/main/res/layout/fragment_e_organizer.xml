@@ -7,8 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".e_organizer"
-    android:background="@drawable/photo3">
+    tools:context=".e_organizer">
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -43,7 +42,6 @@
         android:id="@+id/etxt_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:counterEnabled="true"
         app:errorEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,42 +67,16 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="207dp"
-        android:layout_height="59dp"
-        android:text="For Event Organizer"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:layout_width="314dp"
+        android:layout_height="46dp"
+        android:text="For Event organizer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="Create New Account"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76"
-        android:background="@drawable/background_button"
-        />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="80dp"
-        android:layout_height="30dp"
-        android:text="or"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.596"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <Button
         android:id="@+id/button2"
@@ -114,17 +86,17 @@
         android:text="Forgot your password?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
+        app:layout_constraintVertical_bias="0.697" />
 
     <Button
         android:id="@+id/econfirm"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Log In"
         android:background="@drawable/background_button"
+        android:text="Log In"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

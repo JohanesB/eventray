@@ -20,6 +20,7 @@ public class login extends AppCompatActivity implements BottomNavigationView.OnN
         bottomNavigationView = findViewById(R.id.log_bottom);
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         bottomNavigationView.setSelectedItemId(R.id.log_bottom);
+        getSupportFragmentManager().beginTransaction().replace(R.id.log_frame, userfragment).commit();
 
     }
     user userfragment=new user();

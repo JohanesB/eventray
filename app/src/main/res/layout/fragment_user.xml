@@ -42,7 +42,6 @@
         android:id="@+id/etxt_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:counterEnabled="true"
         app:errorEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,16 +70,16 @@
         android:layout_width="207dp"
         android:layout_height="59dp"
         android:text="For User"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
+        app:layout_constraintVertical_bias="0.11" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/uacreate"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@drawable/background_button"

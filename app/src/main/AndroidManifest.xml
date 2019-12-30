@@ -9,25 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".about_event"></activity>
+        <activity android:name=".Create_account"></activity>
+        <activity android:name=".about_event" />
         <activity android:name=".createevent" />
         <activity android:name=".mainevent_organizer" />
         <activity android:name=".search_for" />
         <activity android:name=".setting" />
         <activity android:name=".manage_profile" />
-        <activity android:name=".login" >
+        <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true"/>
-        <activity android:name=".MainActivity"/>
+            android:value="true" />
 
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

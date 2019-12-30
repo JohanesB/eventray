@@ -52,6 +52,15 @@ public class user extends Fragment {
             }
         });
 
+        button=view.findViewById(R.id.uacreate);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getActivity(),Create_account.class);
+                startActivity(intent);
+            }
+        });
+
 
         return view;
     }

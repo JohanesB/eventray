@@ -19,6 +19,8 @@ public class mainevent_organizer extends AppCompatActivity implements BottomNavi
         bottomNavigationView1=findViewById(R.id.bottomNavigationView3);
         bottomNavigationView1.setOnNavigationItemSelectedListener(this);
         bottomNavigationView1.setSelectedItemId(R.id.bottomNavigationView3);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.Emain, EprofileFragment).commit();
     }
     Eprofile EprofileFragment=new Eprofile();
     Oevent OeventFragment=new Oevent();
